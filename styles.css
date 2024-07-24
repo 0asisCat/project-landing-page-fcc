@@ -1,3 +1,7 @@
 *{box-sizing:border-box;}
 
-body{background-color:#239B56;text-align:center;}
+body{background-color:#1DA850;text-align:center;margin:0;padding:0;font-family:Helvetica, sans-serif;}
+
+header{min-height:75;background-color:#7147AB;}
+
+.container{padding:10px;}
