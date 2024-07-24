@@ -2,6 +2,12 @@
 
 body{background-color:#1DA850;text-align:center;margin:0;padding:0;font-family:Helvetica, sans-serif;}
 
-header{min-height:75;background-color:#7147AB;}
+header{min-height:15%px;width:100%;background-color:#7147AB;position:fixed;display:flex;justify-content:space-between;}
 
-.container{padding:10px;}
+nav ul{display:flex;flex-direction:row;width:35vw;justify-content:space-around;}
+
+li{list-style:none;}
+
+a{text-decoration:none;color:black;}
+
+.container{padding:100px 0;}
