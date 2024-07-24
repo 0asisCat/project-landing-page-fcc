@@ -12,9 +12,9 @@ a{text-decoration:none;color:black;}
 
 .container{padding:100px 0;}
 
-@media only screen and (max-width:700px){
-  nav ul{display:flex;flex-direction:row;width:30vw;justify-content:space-around;flex-wrap:wrap;}
-  
+@media only screen and (max-width:500px){
+  header{position:fixed;display:block;text-align:center;}
+  nav ul{text-align:center;width:100%;}
 }
 
 @media only screen and (max-width:1500px){
