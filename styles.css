@@ -11,3 +11,12 @@ li{list-style:none;}
 a{text-decoration:none;color:black;}
 
 .container{padding:100px 0;}
+
+@media only screen and (max-width:700px){
+  nav ul{display:flex;flex-direction:row;width:30vw;justify-content:space-around;flex-wrap:wrap;}
+  
+}
+
+@media only screen and (max-width:1500px){
+  nav ul{display:flex;flex-direction:row;width:50vw;justify-content:space-around;flex-wrap:wrap;}
+}
